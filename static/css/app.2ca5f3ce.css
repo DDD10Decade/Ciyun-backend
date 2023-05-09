@@ -1,0 +1,47 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50
+}
+
+el-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+el-menu, nav {
+    padding: 0
+}
+
+body, html {
+    height: 100%
+}
+
+.navimg {
+    background: url(../img/navbg.32689b8c.jpg) no-repeat 50%/cover;
+/ / background-image: url(../../static/img/navbg.32689b8c.jpg);
+/ / background-size: 100 %;
+/ / background-repeat: no-repeat
+}
+
+nav a {
+    font-weight: 700;
+    color: #2c3e50
+}
+
+nav a.router-link-exact-active {
+    color: #42b983
+}
+
+.bgimg {
+    background-image: url(../img/bg.e21b2ee6.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    padding: 0
+}
